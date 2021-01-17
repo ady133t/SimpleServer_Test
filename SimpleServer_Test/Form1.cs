@@ -29,7 +29,6 @@ namespace SimpleServer_Test
         {
             IPHostEntry IPHost = Dns.GetHostByName(Dns.GetHostName());
 
-
             label1.Text = "My IP address is " + IPHost.AddressList[0].ToString();
 
             nSockets = new ArrayList();
