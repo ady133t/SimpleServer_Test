@@ -1,0 +1,5 @@
+{
+  "ovpn_file":[
+    {"id":0,"file":"dev tun proto tcp remote 219.100.37.55 443 cipher AES-128-CBC cipher AES-128-CBC resolv-retry infinite nobind persist-key persist-tun client verb 3 "},
+    {"id":1,"file":""}]
+}
