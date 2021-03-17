@@ -1,9 +1,9 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"client
+    {"id":0,"file":"
 dev tun
 proto udp
-remote 128.199.247.154 1194
+remote 128.199.247.154 992
 dhcp-option DNS 8.8.8.8
 cipher AES-128-CBC
 auth SHA1
@@ -11,13 +11,9 @@ resolv-retry infinite
 nobind
 persist-key
 persist-tun
+client
 verb 3
-auth-user-pass ady133t-vpnjantit.com 9499581
-route-delay 2
-redirect-gateway
-fast-io
-pull
-
+auth-user-pass
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIDsjCCApqgAwIBAgIBADANBgkqhkiG9w0BAQsFADBYMRcwFQYDVQQDDA5zZy5q
@@ -101,7 +97,7 @@ TdXMHzaH2So56mq1jF7prPJiwZ4eMxm/U2aabuVxW+Ycx/yV70unwk/RUbiQSggD
 RqkuZTnclPj+jabKJlCKg3XpqBZxRissVy+GSKIwUNXZh/+nKBkkR4U4ATMFzkUM
 dZW2naE3QJ8mnSON1SyBDK48
 -----END PRIVATE KEY-----
-     
+
 </key>
 "},
     {"id":1,"file":"
