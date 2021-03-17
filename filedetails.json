@@ -1,7 +1,18 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"dev tun proto tcp remote 219.100.37.55 443 cipher AES-128-CBC auth SHA1 resolv-retry infinite nobind persist-key persist-tun client verb 3 
- <ca>
+    {"id":0,"file":"
+dev tun
+proto tcp
+remote 219.100.37.55 443
+cipher AES-128-CBC
+auth SHA1
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+client
+verb 3
+<ca>
 -----BEGIN CERTIFICATE-----
 MIIF3jCCA8agAwIBAgIQAf1tMPyjylGoG7xkDjUDLTANBgkqhkiG9w0BAQwFADCB
 iDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0pl
@@ -38,18 +49,6 @@ jjxDah2nGN59PRbxYvnKkKj9
 -----END CERTIFICATE-----
 
 </ca>
-
-
-###############################################################################
-# The client certificate file (dummy).
-# 
-# In some implementations of OpenVPN Client software
-# (for example: OpenVPN Client for iOS),
-# a pair of client certificate and private key must be included on the
-# configuration file due to the limitation of the client.
-# So this sample configuration file has a dummy pair of client certificate
-# and private key as follows.
-
 <cert>
 -----BEGIN CERTIFICATE-----
 MIICxjCCAa4CAQAwDQYJKoZIhvcNAQEFBQAwKTEaMBgGA1UEAxMRVlBOR2F0ZUNs
@@ -99,8 +98,6 @@ va8q4QKBgQCEhLVeUfdwKvkZ94g/GFz731Z2hrdVhgMZaU/u6t0V95+YezPNCQZB
 wmE9Mmlbq1emDeROivjCfoGhR3kZXW1pTKlLh6ZMUQUOpptdXva8XxfoqQwa3enA
 M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
-
 </key>
-"},
-    {"id":1,"file":""}]
+"}]
 }
