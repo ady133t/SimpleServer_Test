@@ -1,6 +1,6 @@
 {
   "ovpn_file":[
-    {"id":0,"username":"ady133t-vpnjantit.com1","password":"9499581","file":"
+    {"id":0,"username":"ady133t-vpnjantit.com","password":"9499581","file":"
 dev tun
 proto udp
 remote 128.199.247.154 992
