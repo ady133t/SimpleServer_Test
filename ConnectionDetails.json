@@ -192,7 +192,7 @@ M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
 </key>
 "},
-{"id":2,"vpntype":"free","city":"USA","country":"USA","image":"usa1","ip":"219.100.37.25","active":"true","signal":"a","username":"","password":"","file":"
+{"id":2,"vpntype":"free","city":"USA","country":"USA","image":"usa","ip":"219.100.37.25","active":"true","signal":"a","username":"","password":"","file":"
 dev tun
 proto tcp
 remote 219.100.37.25 443
