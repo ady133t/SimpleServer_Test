@@ -1,6 +1,7 @@
 {
   "ovpn_file":[
-    {"id":0,"username":"ady133t-vpnjantit.com","password":"9499581","file":"
+    {"id":0,"vpntype":"free","city":"singapore","country":"singapore","image":"singapore","ip":"128.199.247.154","active":"true",
+     "signal":"a","username":"ady133t-vpnjantit.com","password":"9499581","file":"
 dev tun
 proto udp
 remote 128.199.247.154 992
@@ -94,7 +95,7 @@ dZW2naE3QJ8mnSON1SyBDK48
 -----END PRIVATE KEY-----
 </key>
 "},
-    {"id":1,"username":"","password":"","file":"
+    {"id":1,"vpntype":"free","city":"japan","country":"japan","image":"japan","ip":"219.100.37.55","active":"true","signal":"a","username":"","password":"","file":"
 dev tun
 proto tcp
 remote 219.100.37.55 443
