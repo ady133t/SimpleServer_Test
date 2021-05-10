@@ -1,6 +1,6 @@
 {
   "ovpn_file":[
-    {"id":0,"vpntype":"vip","city":"Singapore","country":"Singapore","image":"singapore","ip":"128.199.247.154","active":"true",
+    {"id":0,"vpntype":"vip","city":"Singapore","country":"Singapore1 (VIP)","image":"singapore","ip":"128.199.247.154","active":"true",
      "signal":"a","username":"ady133t-vpnjantit.com","password":"9499581","file":"
 dev tun
 proto udp
