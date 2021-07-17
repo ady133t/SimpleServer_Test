@@ -31,7 +31,7 @@ namespace SimpleServer
         }
 
 
-        public void Start<T>() where T : new()
+        public void Start<T>() where T : SimpleServerListenerTCP, new()
         {
             Thread thdListener = new Thread(() => { //thread 1 only for accepting socket
 
@@ -57,8 +57,8 @@ namespace SimpleServer
                             onClientConnected(socketEntity);
                     }
                         // ParameterizedThreadStart a = new ParameterizedThreadStart(handlerThread(Socket socket, SimpleServerListenerTCP listener));
-                        object listenerObj = (object)new T();
-                        SimpleServerListenerTCP listener = (SimpleServerListenerTCP)listenerObj;
+                       // object listenerObj = (object)new T();
+                        SimpleServerListenerTCP listener = (SimpleServerListenerTCP)new T();
                         listener.setEntity(socketEntity);
 
 
